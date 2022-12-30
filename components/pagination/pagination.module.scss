@@ -1,0 +1,25 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  li {
+    border: 1px solid #a2bfc8;
+  }
+
+  .button {
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-weight: bold;
+
+    &:hover:not(:disabled) {
+      opacity: 0.6;
+    }
+    &:focus {
+      outline: none;
+    }
+    &.active {
+      background-color: #ddd;
+    }
+  }
+}

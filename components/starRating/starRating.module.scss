@@ -1,0 +1,40 @@
+.starRating {
+  display: flex;
+  .rating {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: #b1b0b0;
+    margin-right: 0.2rem;
+    border-radius: 5px;
+    padding: 1px 5px;
+    &.on {
+      background-color: #1aa7e6;
+    }
+
+    &.half {
+      background: linear-gradient(
+        to right,
+        #1aa7e6 0%,
+        #1aa7e6 50%,
+        #b1b0b0 50%,
+        #b1b0b0 100%
+      );
+    }
+
+    .star {
+      color: #fff;
+    }
+  }
+
+  &.small {
+    .rating {
+      padding: 0 3px;
+    }
+
+    .star {
+      font-size: 12px;
+    }
+  }
+}

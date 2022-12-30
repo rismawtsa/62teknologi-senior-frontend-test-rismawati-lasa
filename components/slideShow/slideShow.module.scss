@@ -1,0 +1,55 @@
+@mixin btn {
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #bebbbb;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.slideShow {
+  position: relative;
+  height: fit-content;
+
+  .imageContainer {
+    .prevArrow {
+      @include btn;
+      left: 6px;
+    }
+    .nextArrow {
+      @include btn;
+      left: 18rem;
+    }
+  }
+
+  .cricleWrapper {
+    position: absolute;
+    bottom: 1rem;
+    z-index: 10;
+    display: flex;
+    left: 8rem;
+  }
+  .circle {
+    background: none;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #f3f3f3;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+
+    &.active {
+      background-color: #b9b1b1;
+    }
+  }
+}

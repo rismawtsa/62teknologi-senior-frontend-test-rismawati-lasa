@@ -1,0 +1,61 @@
+.searchContainer {
+  width: 40%;
+  margin-bottom: 1rem;
+  position: relative;
+
+  .searchItem {
+    margin-bottom: 1.5rem;
+    position: relative;
+
+    label {
+      width: 20%;
+      display: inline-block;
+    }
+    .isRequired {
+      color: red;
+    }
+
+    .input {
+      width: 80%;
+      height: 2.5rem;
+      border: 1px solid #e9ebec;
+      padding: 0.5rem;
+      border-radius: 5px;
+      outline: none;
+
+      &:focus {
+        border-color: #2aafda;
+      }
+
+      &.inputError {
+        border-color: red;
+      }
+    }
+
+    .error {
+      color: red;
+      font-size: 14px;
+      position: absolute;
+      left: 20%;
+    }
+  }
+
+  .buttonContainer {
+    margin-top: 2rem;
+
+    button {
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #2aafda;
+      font-weight: bold;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    .btnSearch {
+      margin-right: 0.5rem;
+    }
+  }
+}

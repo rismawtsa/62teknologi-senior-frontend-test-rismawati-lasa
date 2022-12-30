@@ -1,0 +1,49 @@
+.reviewContainer > div {
+  margin-top: 1rem;
+}
+.subTitle {
+  margin-bottom: 0.8rem;
+  color: #363535;
+  font-size: 18px;
+}
+.user {
+  display: flex;
+  margin-bottom: 0.5rem;
+  .userPhoto {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    margin-right: 1rem;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .userInfo {
+    > span {
+      color: #524f4f;
+      font-weight: bold;
+    }
+
+    .userRating {
+      display: flex;
+      margin-top: 0.5rem;
+      > div:last-child {
+        color: #797878;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
+.hours {
+  margin-top: 1rem;
+  > div {
+    margin-top: 0.5rem;
+  }
+}
+
+.label {
+  display: inline-block;
+  width: 3rem;
+}

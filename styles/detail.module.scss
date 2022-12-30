@@ -1,0 +1,42 @@
+.main {
+  padding: 1rem 6rem;
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    color: #363535;
+    font-size: 35px;
+  }
+
+  .subTitle {
+    margin-bottom: 0.8rem;
+    color: #363535;
+    font-size: 18px;
+  }
+
+  .detailContainer {
+    display: flex;
+  }
+
+  .right {
+    margin-left: 2rem;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .review {
+    color: #524f4f;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    font-size: 18px;
+  }
+
+  .info {
+    margin: 1rem 0 1.5rem;
+    font-weight: bold;
+    color: #524f4f;
+  }
+}

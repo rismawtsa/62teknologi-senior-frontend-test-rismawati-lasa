@@ -1,0 +1,30 @@
+.main {
+  padding: 1rem 4rem;
+  min-height: 100vh;
+}
+
+.detail {
+  color: #157ea3;
+  font-weight: bold;
+}
+
+.pagination {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  font-weight: bold;
+  color: red;
+}
+
+.table {
+  margin-top: 1rem;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

@@ -1,0 +1,35 @@
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  min-height: 10rem;
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .inputFilter {
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #e9ebec;
+    border-radius: 5px;
+
+    &:focus {
+      border-color: #2aafda;
+    }
+  }
+
+  tr:nth-child(even) {
+    background-color: #e9ebec;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  .nodata {
+    text-align: center;
+    font-weight: bold;
+  }
+}
